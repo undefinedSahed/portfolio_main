@@ -1,6 +1,5 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import Sidebar from "./_components/sidebar";
 import Navbar from "./_components/sidebar";
 
 const poppins = Poppins({
