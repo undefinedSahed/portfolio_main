@@ -20,7 +20,7 @@ const CircularProgress = ({
         value={percentage}
         styles={buildStyles({
           pathColor: "#ffb400",
-          trailColor: "#ffffff12",
+          trailColor: "#222222",
           strokeLinecap: "butt",
         })}
       />

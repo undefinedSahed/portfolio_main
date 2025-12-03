@@ -43,7 +43,7 @@ export default function MySkill() {
   ];
 
   return (
-    <section className="lg:py-36 py-12 max-w-7xl px-2 lg:px-0 mx-auto">
+    <section className="lg:py-20 py-8 max-w-7xl px-2 lg:px-0 mx-auto">
       <div className="text-center lg:pb-12 pb-8">
         <h3 className="lg:text-[26px] text-[20px] text-white font-bold uppercase font-pops">
           My Skills

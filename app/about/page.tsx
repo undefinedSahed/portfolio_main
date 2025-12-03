@@ -3,6 +3,7 @@ import React from "react";
 import PersonalInfo from "./_components/personal-info";
 import AboutHero from "./_components/about";
 import MySkill from "./_components/my-skills";
+import ExpandEdu from "./_components/exp-edu";
 
 export const metadata: Metadata = {
   title: "About Me - Sahed Rahman",
@@ -16,6 +17,7 @@ export default function page() {
       <AboutHero />
       <PersonalInfo />
       <MySkill />
+      <ExpandEdu />
     </>
   );
 }
