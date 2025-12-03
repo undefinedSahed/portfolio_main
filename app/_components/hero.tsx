@@ -14,8 +14,8 @@ export default function Hero() {
         <div className="lg:w-1/2">
           <Image
             src="/me/sahed.png"
-            width={1000}
-            height={1000}
+            width={5000}
+            height={5000}
             alt="Sahed - Full Stack Developer"
             className="lg:h-[calc(100vh-80px)] h-56 max-w-56 rounded-full object-cover lg:max-w-5/7 lg:rounded-4xl border-4 border-secondary"
           />
@@ -48,8 +48,9 @@ export default function Hero() {
             <p className="text-white text-sm lg:text-xl lg:font-normal font-light lg:leading-10 leading-6 lg:pb-10 pb-7 lg:pt-5 pt-2 lg:pr-20">
               I&apos;m a professional <b>Full Stack Developer</b> and focused on
               crafting clean & user-friendly experiences. With expertise in
-              Tailwind CSS, React.js, Next.js, Node.js, Express.js and MongoDB. I bring innovative
-              web solutions to life. Let&apos;s build something great together!
+              Tailwind CSS, React.js, Next.js, Node.js, Express.js and MongoDB.
+              I bring innovative web solutions to life. Let&apos;s build
+              something great together!
             </p>
             <Link href={{ pathname: "/about" }}>
               <button className='relative z-30 overflow-hidden lg:pl-10 pl-6 lg:pr-20 pr-14 lg:py-4 py-3 border border-[#ffb400] rounded-[40px] after:absolute after:content-[""] after:top-0 after:-right-[250px] after:h-full after:w-full after:bg-[#ffb400] after:-z-10 after:duration-500 after:ease-in-out hover:after:right-0 cursor-pointer'>
