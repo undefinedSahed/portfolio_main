@@ -1,6 +1,6 @@
 "use client";
 
-import { MoveRight } from "lucide-react";
+import { ArrowRight, MoveRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -57,7 +57,7 @@ export default function Hero() {
                 <span className="text-[15px] text-white font-bold uppercase">
                   More About Me
                 </span>
-                <MoveRight className="absolute z-30 h-[50px] w-[50px] lg:h-[60px] lg:w-[60px] text-white rounded-full bg-[#ffb400] flex justify-center items-center top-1/2 -right-1 -translate-y-1/2 px-3.5" />
+                <ArrowRight className="absolute z-30 h-[50px] w-[50px] lg:h-[60px] lg:w-[60px] text-white rounded-full bg-[#ffb400] flex justify-center items-center top-1/2 -right-1 -translate-y-1/2 px-3.5" />
               </button>
             </Link>
           </div>
