@@ -7,7 +7,7 @@ import TW from "../assets/tailwind.svg";
 import react from "../assets/react.svg";
 import Next from "../assets/next.svg";
 import GitHub from "../assets/github.png";
-import CircularProgress from "./circular-progress";
+import CircularProgress from "@/app/about/_components/circular-progress";
 
 export default function MySkill() {
   const data = [
