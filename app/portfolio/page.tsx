@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import React from "react";
 import PortfolioHeader from "./_components/portfolio_header";
+import Works from "./_components/works";
 
 export const metadata: Metadata = {
   title: "Portfolio - Sahed Rahman",
@@ -12,6 +13,7 @@ export default function Portfolio() {
   return (
     <>
       <PortfolioHeader />
+      <Works />
     </>
   );
 }
