@@ -46,15 +46,15 @@ export default function Navbar() {
       {/* Mobile Menu */}
 
       {/* Mobile Menu Backdrop */}
-      <div className="fixed lg:hidden bottom-2 left-1/2 -translate-x-1/2 z-40">
-        <ul className="flex gap-x-2 items-center">
+      <div className="fixed lg:hidden bottom-2 left-1/2 -translate-x-1/2 z-40 bg-transparent backdrop-blur-md px-5 py-2 rounded-lg border border-secondary">
+        <ul className="flex gap-x-4 items-center">
           {navLinks.map((link) => {
             const Icon = link.icon;
             return (
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className={`group relative flex items-center justify-center w-12 h-12 rounded-full text-white transition-all duration-300 ease-out ${
+                  className={`group relative flex items-center justify-center w-10 h-10 rounded-full text-white transition-all duration-300 ease-out ${
                     pathname === link.href ? "bg-primary" : "bg-secondary"
                   }`}
                   aria-label={link.label}
