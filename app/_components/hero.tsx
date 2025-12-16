@@ -13,7 +13,7 @@ export default function Hero() {
         <div className="fixed bg-primary h-[200%] w-[105%] -left-[83%] -top-[5%] -rotate-15 -z-10 hidden lg:block"></div>
         <div className="lg:w-1/2">
           <Image
-            src="/me/sahed.png"
+            src="/msr.png"
             width={5000}
             height={5000}
             alt="Sahed - Full Stack Developer"
@@ -38,6 +38,8 @@ export default function Hero() {
                 "Express.js Developer",
                 1000,
                 "MongoDB Specialist",
+                1000,
+                "DevOPS Engineer",
                 1000,
               ]}
               wrapper="span"

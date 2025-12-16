@@ -4,7 +4,7 @@ import React from "react";
 export default function ExpandEdu() {
   return (
     <>
-      <section className="lg:py-20 py-8 max-w-7xl px-7 lg:px-0 mx-auto">
+      <section className="lg:py-20 py-8 pb-20 lg:pb-0 max-w-7xl px-7 lg:px-0 mx-auto">
         <div className="text-center pb-12">
           <h3 className="lg:text-[26px] text-[20px] text-white font-bold uppercase font-pops">
             Experience & Education
