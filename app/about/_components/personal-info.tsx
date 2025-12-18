@@ -101,7 +101,7 @@ export default function PersonalInfo() {
                 <span className="text-[15px] font-bold text-white uppercase">
                   Download Resume
                 </span>
-                <Download className="absolute z-30 lg:h-[55px] lg:w-[55px] h-[50px] w-[50px] text-white rounded-full bg-primary flex justify-center items-center top-1/2 -right-0 -translate-y-1/2 px-4" />
+                <Download className="absolute z-30 lg:h-[55px] lg:w-[55px] h-[50px] w-[50px] text-white rounded-full bg-primary flex justify-center items-center top-1/2 right-0 -translate-y-1/2 px-4" />
               </a>
             </button>
           </div>

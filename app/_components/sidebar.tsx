@@ -8,7 +8,7 @@ const navLinks = [
   { href: "/", icon: Home, label: "Home" },
   { href: "/about", icon: User, label: "About" },
   { href: "/portfolio", icon: BriefcaseBusiness, label: "Portfolio" },
-  { href: "/service", icon: Settings, label: "Service" },
+  { href: "/services", icon: Settings, label: "Service" },
   { href: "/contact", icon: Mail, label: "Contact" },
 ];
 

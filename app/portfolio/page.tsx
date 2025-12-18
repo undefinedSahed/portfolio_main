@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import React from "react";
-import PortfolioHeader from "./_components/portfolio_header";
 import Works from "./_components/works";
+import PageHeader from "../_components/page-header";
 
 export const metadata: Metadata = {
   title: "Portfolio - Sahed Rahman",
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function Portfolio() {
   return (
     <>
-      <PortfolioHeader />
+      <PageHeader backgroundText="Works" headOne="My" headTwo="Portfolio" />
       <Works />
     </>
   );
