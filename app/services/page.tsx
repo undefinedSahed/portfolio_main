@@ -1,6 +1,8 @@
 import { Metadata } from "next";
 import React from "react";
 import PageHeader from "../_components/page-header";
+import { Service, services } from "@/public/data/services";
+import ServiceCard from "./_components/service-card";
 
 export const metadata: Metadata = {
   title: "Services - Sahed Rahman",
@@ -10,8 +12,20 @@ export const metadata: Metadata = {
 
 export default function ServicePage() {
   return (
-    <>
-      <PageHeader backgroundText="Service" headOne="What I" headTwo="Provide"/>
-    </>
+    <div className="max-w-7xl mx-auto">
+      <PageHeader backgroundText="Service" headOne="What I" headTwo="Provide" />
+      <div className="grid frid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        {services.map((service: Service) => (
+          <ServiceCard
+            key={service.id}
+            id={service.id}
+            title={service.title}
+            description={service.description}
+            includes={service.includes}
+            icon={service.icon}
+          />
+        ))}
+      </div>
+    </div>
   );
 }

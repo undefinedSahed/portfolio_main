@@ -23,17 +23,17 @@ export const services: Service[] = [
   },
   {
     id: 2,
-    title: "Technical Leadership & Team Management",
+    title: "UI/UX Design & User Experience",
     description:
-      "I lead cross-functional teams to deliver high-quality software aligned with business goals.",
+      "Designing intuitive, user-centered interfaces that enhance usability and drive engagement.",
     includes: [
-      "Sprint planning & task breakdown",
-      "Code reviews & architecture decisions",
-      "Mentoring developers",
-      "Stakeholder & client communication",
-      "Ensuring delivery quality & timelines",
+      "User research & requirement analysis",
+      "Wireframing & interactive prototypes",
+      "UI design systems & style guides",
+      "Usability testing & feedback iteration",
+      "Developer handoff & design validation",
     ],
-    icon: "https://img.icons8.com/ios-filled/50/000000/leadership.png",
+    icon: "https://img.icons8.com/ios-filled/50/000000/design.png",
   },
   {
     id: 3,
@@ -90,19 +90,5 @@ export const services: Service[] = [
       "Iterative improvements post-launch",
     ],
     icon: "https://img.icons8.com/ios-filled/50/000000/rocket.png",
-  },
-  {
-    id: 7,
-    title: "System Audit & Performance Optimization",
-    description:
-      "In-depth review and optimization of existing systems to improve stability and performance.",
-    includes: [
-      "Codebase & architecture audit",
-      "Performance bottleneck analysis",
-      "Security assessment",
-      "Scalability recommendations",
-      "Actionable improvement roadmap",
-    ],
-    icon: "https://img.icons8.com/ios-filled/50/000000/inspection.png",
   },
 ];
