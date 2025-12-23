@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function ServicePage() {
   return (
-    <div className="max-w-7xl mx-auto">
-      <PageHeader backgroundText="Service" headOne="What I" headTwo="Provide" />
-      <div className="grid frid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5">
+    <div className="max-w-7xl mx-auto px-2 lg:px-0">
+      <PageHeader backgroundText="Service" headOne="What I" headTwo="Build" />
+      <div className="grid frid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 pb-20">
         {services.map((service: Service) => (
           <ServiceCard
             key={service.id}
