@@ -1,4 +1,5 @@
-import { Github, Linkedin, Mail, TwitterIcon } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -25,7 +26,7 @@ export default function SocialLinks() {
           target="_blank"
           className="h-10 w-10 rounded-full bg-secondary hover:bg-primary flex justify-center items-center cursor-pointer"
         >
-          <TwitterIcon className="w-5 h-5" />
+          <Image src="/twitter1.png" alt="Twitter" width={18} height={18} />
         </Link>
         <Link
           href="mailto:sahedrahmanshakil@gmail.com"

@@ -1,8 +1,10 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Mail, Phone, Send } from "lucide-react";
+import { Mail, Phone, Send, Github, Linkedin } from "lucide-react";
 import { motion } from "framer-motion";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -83,6 +85,41 @@ export default function ContactForm() {
                 href="tel:+8801619778199"
                 subtext="Available Saturday-Friday for calls."
               />
+            </div>
+            <div className="lg:hidden flex justify-center items-center gap-4">
+              <Link
+                href="https://github.com/undefinedSahed"
+                target="_blank"
+                className="h-10 w-10 rounded-full bg-secondary hover:bg-primary flex justify-center items-center cursor-pointer"
+              >
+                <Github className="w-5 h-5" />
+              </Link>
+              <Link
+                href="https://www.linkedin.com/in/mern-sahed"
+                target="_blank"
+                className="h-10 w-10 rounded-full bg-secondary hover:bg-primary flex justify-center items-center cursor-pointer"
+              >
+                <Linkedin className="w-5 h-5" />
+              </Link>
+              <Link
+                href="https://x.com/sahed_rahman_15"
+                target="_blank"
+                className="h-10 w-10 rounded-full bg-secondary hover:bg-primary flex justify-center items-center cursor-pointer"
+              >
+                <Image
+                  src="/twitter1.png"
+                  alt="Twitter"
+                  width={18}
+                  height={18}
+                />
+              </Link>
+              <Link
+                href="mailto:sahedrahmanshakil@gmail.com"
+                target="_blank"
+                className="h-10 w-10 rounded-full bg-secondary hover:bg-primary flex justify-center items-center cursor-pointer"
+              >
+                <Mail className="w-5 h-5" />
+              </Link>
             </div>
           </motion.div>
 
