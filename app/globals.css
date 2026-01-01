@@ -1,32 +1,42 @@
 @import "tailwindcss";
 
+/* 1. Define the custom variant for Tailwind v4 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* 2. Light Mode Variables (Default) */
 :root {
   --background: #ffffff;
-  --foreground: #111111;
+  --foreground: #ffffff;
+  --primary: #fdb400;
+  --secondary: #222222;
+}
+
+/* 3. Dark Mode Variables (Triggered by next-themes class) */
+.dark {
+  --background: #111111;
+  --foreground: #ffffff;
+  --secondary: #222222;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-primary: #fdb400;
-  --color-secondary: #222222;
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #111111;
-    --foreground: #fff;
-  }
+/* 4. Global Styles */
+body {
+  /* Using the CSS variable ensures the transition is smooth */
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  /* Optional: adds a smooth fade when switching */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 ::-webkit-scrollbar {
   display: none;
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
