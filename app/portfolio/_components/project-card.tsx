@@ -69,7 +69,7 @@ export default function ProjectCard({ project, index = 0 }: ProjectCardProps) {
               className="h-full w-full"
             >
               <Image
-                src={project.thumbnail || "/placeholder.svg"}
+                src={project.thumbnail}
                 alt={project.title}
                 fill
                 className="object-cover"
@@ -95,7 +95,7 @@ export default function ProjectCard({ project, index = 0 }: ProjectCardProps) {
             </Link>
           </div>
 
-          <p className="text-sm text-white/50 line-clamp-2 mb-6 leading-relaxed">
+          <p className="text-sm text-white/50 line-clamp-4 mb-6 leading-relaxed">
             {project.description}
           </p>
 

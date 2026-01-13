@@ -5,9 +5,9 @@
 
 /* 2. Light Mode Variables (Default) */
 :root {
-  --background: #ffffff;
-  --foreground: #ffffff;
   --primary: #fdb400;
+  --background: #111111;
+  --foreground: #ffffff;
   --secondary: #222222;
 }
 

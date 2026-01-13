@@ -124,10 +124,10 @@ export default function PersonalInfo() {
             </div>
             <div className="w-[48%] border border-secondary rounded-lg py-2 lg:py-6 lg:px-7 px-4">
               <h2 className="font-bold lg:text-[50px] text-[40px] lg:pb-6 text-primary">
-                25+
+                30+
               </h2>
               <h3 className='font-normal text-[16px] lg:pl-9 uppercase text-white relative after:absolute after:top-1/2 after:-translate-y-1/2 after:left-0 after:content-[""] after:h-0.5 after:w-8 after:hidden after:lg:block after:bg-white after:opacity-60'>
-                Happy Customer
+                Happy Clients
               </h3>
             </div>
             <div className="w-[48%] border border-secondary rounded-lg py-2 lg:py-6 lg:px-7 px-4">

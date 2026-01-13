@@ -27,7 +27,7 @@ export default function ExpandEdu() {
                 </span>
               </h3>
               <p className="text-[15px] opacity-90 text-white lg:leading-7 leading-6">
-                Leading a 12+ members cross-functional team including UI/UX
+                Leading a 17+ members cross-functional team including UI/UX
                 designers, backend developers, and front-end developers,
                 ensuring smooth collaboration and high quality delivery.
                 Communicating directly with clients to manage relationships,
