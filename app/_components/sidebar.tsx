@@ -46,26 +46,36 @@ export default function Navbar() {
       {/* Mobile Menu */}
 
       {/* Mobile Menu Backdrop */}
-      <div className="fixed lg:hidden bottom-2 left-1/2 -translate-x-1/2 z-40 bg-transparent backdrop-blur-md px-5 py-2 rounded-lg border border-secondary">
-        <ul className="flex gap-x-4 items-center">
-          {navLinks.map((link) => {
-            const Icon = link.icon;
-            return (
-              <li key={link.href}>
-                <Link
-                  href={link.href}
-                  className={`group relative flex items-center justify-center w-10 h-10 rounded-full text-white transition-all duration-300 ease-out ${
-                    pathname === link.href ? "bg-primary" : "bg-secondary"
-                  }`}
-                  aria-label={link.label}
-                  title={link.label}
-                >
-                  <Icon className="w-5 h-5 transition-transform duration-300 group-hover:scale-110" />
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
+      <div
+        className="fixed lg:hidden left-1/2 bottom-4 z-40 pointer-events-none"
+        style={{ transform: "translateX(-50%)" }}
+      >
+        <div
+          className="w-[min(calc(100vw-2rem),28rem)] pointer-events-auto rounded-full border border-secondary bg-[#0c0c0c]/95 backdrop-blur-md px-4 py-3 overflow-hidden"
+          style={{
+            paddingBottom: "calc(0.75rem + env(safe-area-inset-bottom))",
+          }}
+        >
+          <ul className="flex gap-x-3 items-center justify-center">
+            {navLinks.map((link) => {
+              const Icon = link.icon;
+              return (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className={`group relative flex items-center justify-center w-10 h-10 rounded-full text-white transition-all duration-300 ease-out ${
+                      pathname === link.href ? "bg-primary" : "bg-secondary"
+                    }`}
+                    aria-label={link.label}
+                    title={link.label}
+                  >
+                    <Icon className="w-5 h-5 transition-transform duration-300 group-hover:scale-110" />
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
     </>
   );

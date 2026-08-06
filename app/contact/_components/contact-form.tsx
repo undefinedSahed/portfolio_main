@@ -48,7 +48,7 @@ export default function ContactForm() {
 
   return (
     // Removed "bg-black" so it inherits your specific background color
-    <section id="contact" className="pb-20 text-white relative">
+    <section id="contact" className="pb-28 lg:pb-20 text-white relative w-full">
       <div className="relative z-10 px-2">
         <div className="grid lg:grid-cols-[0.8fr_1.2fr] gap-16 lg:gap-24 items-start">
           {/* Left Column */}
@@ -59,7 +59,7 @@ export default function ContactForm() {
             className="space-y-12"
           >
             <div className="space-y-6">
-              <h4 className="text-4xl font-bold">
+              <h4 className="text-3xl lg:text-4xl font-bold">
                 Let&apos;s build <span className="text-primary">together.</span>
               </h4>
               <p className="text-white/40 text-lg leading-relaxed">
@@ -233,7 +233,7 @@ function ContactInfoItem({
         </p>
         <a
           href={href}
-          className="text-lg text-white hover:text-primary transition-colors font-bold block"
+          className="text-sm lg:text-lg text-white hover:text-primary transition-colors font-bold block"
         >
           {value}
         </a>

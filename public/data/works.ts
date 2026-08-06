@@ -11,6 +11,60 @@ export interface Project {
 
 export const Projects: Project[] = [
   {
+    id: 111,
+    title: "NexBazar - Ecommerce Platform",
+    description:
+      "NexBazar is an e-commerce platform, includes various features such as product, order, offer, coupon, payment, invoice and more.",
+    thumbnail: "/projects/nexbazar.png",
+    features: [
+      "Authentication System",
+      "RBAC System",
+      "Aesthetic UI",
+      "Responsive Design",
+      "SEO Optimized",
+      "Fast Loading Speed",
+      "Deployed on VPS",
+    ],
+    techStacks: [
+      "Next.js",
+      "Nest.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "PostgreSQL",
+      "Ubuntu",
+    ],
+    liveLink: "https://nexbazarbd.com",
+    githubLink: "",
+  },
+  {
+    id: 0,
+    title: "Daily Destiny - News Portal",
+    description:
+      "Daily Destiny is a news portal that provides up-to-date news and information on various topics, the project also includes epaper and video section.",
+    thumbnail: "/projects/destiny.png",
+    features: [
+      "Aesthetic UI",
+      "Authentication System",
+      "RBAC System",
+      "Responsive Design",
+      "SEO Optimized",
+      "Fast Loading Speed",
+      "Deployed on VPS",
+    ],
+    techStacks: [
+      "Next.js",
+      "Nest.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "PostgreSQL",
+      "Ubuntu",
+      "Nginx",
+      "CI/CD",
+    ],
+    liveLink: "https://dailydestinybd.com",
+    githubLink: "",
+  },
+  {
     id: 1,
     title: "Graphodio - Digital Agency",
     description:

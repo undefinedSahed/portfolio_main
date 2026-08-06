@@ -11,14 +11,15 @@ import Git from "@/public/stacks/git.png";
 import Redux from "@/public/stacks/redux.png";
 import ReactQuery from "@/public/stacks/react-query.png";
 import GSAP from "@/public/stacks/gsap.png";
-import FramerMotion from "@/public/stacks/framer-motion.png";
 import NodeJS from "@/public/stacks/node-js.png";
 import ExpressJS from "@/public/stacks/express-js.png";
-import SocketIO from "@/public/stacks/socket.png";
 import MongoDB from "@/public/stacks/mongodb.png";
 import Firebase from "@/public/stacks/firebase.png";
 import Nginx from "@/public/stacks/nginx.png";
 import AWS from "@/public/stacks/aws.png";
+import PostgreSQL from "@/public/stacks/postgresql.png";
+import NestJS from "@/public/stacks/nestjs.svg";
+
 
 export default function MySkill() {
   const data = [
@@ -31,11 +32,11 @@ export default function MySkill() {
     { percentage: 60, imageSrc: Redux, topic: "Redux" },
     { percentage: 80, imageSrc: ReactQuery, topic: "React Query" },
     { percentage: 60, imageSrc: GSAP, topic: "GSAP" },
-    { percentage: 80, imageSrc: FramerMotion, topic: "Framer Motion" },
     { percentage: 50, imageSrc: NodeJS, topic: "Node.js" },
     { percentage: 75, imageSrc: ExpressJS, topic: "Express.js" },
-    { percentage: 40, imageSrc: SocketIO, topic: "Socket.io" },
+    { percentage: 80, imageSrc: NestJS, topic: "NestJS" },
     { percentage: 85, imageSrc: MongoDB, topic: "MongoDB" },
+    { percentage: 40, imageSrc: PostgreSQL, topic: "PostgreSQL" },
     { percentage: 80, imageSrc: Firebase, topic: "Firebase" },
     { percentage: 30, imageSrc: Nginx, topic: "Nginx" },
     { percentage: 30, imageSrc: AWS, topic: "AWS" },

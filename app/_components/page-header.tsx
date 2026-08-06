@@ -16,8 +16,8 @@ export default function PageHeader({
           <h2 className="text-[#ffffff12] lg:text-[100px] text-[55px] font-black uppercase">
             {backgroundText}
           </h2>
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex lg:text-[46px] text-[25px] uppercase font-extrabold">
-            <h3 className="text-white pr-[15px]">{headOne}</h3>
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex lg:text-[46px] text-[22px] uppercase font-extrabold">
+            <h3 className="text-white pr-1.5 lg:pr-[15px]">{headOne}</h3>
             <h4 className="text-[#ffb400]">{headTwo}</h4>
           </div>
         </div>

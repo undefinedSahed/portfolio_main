@@ -29,6 +29,8 @@ export default function Hero() {
               sequence={[
                 "MERN Stack Developer",
                 1000,
+                "PERN Stack Developer",
+                1000,
                 "Full Stack Developer",
                 1000,
                 "React.js Developer",
